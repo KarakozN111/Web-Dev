@@ -1,0 +1,167 @@
+
+body {
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #f0f2f5;
+    display:flex;
+    justify-content: center;
+    align-items: auto;
+    height:100vh;
+}
+.container{
+    display:flex;
+    align-items:center;
+
+}
+.login-container {
+    width: 360px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;   
+   position:relative;
+   left:100px;
+    
+}
+.info {
+    flex: 1;
+    position: relative; /* Добавим позиционирование */
+    left: -80px; /* Сдвиг влево */
+    text-align: left;
+}
+
+
+.info h1{
+    color:#1877f2;
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:3px;
+    margin-top:-105px;
+    position: relative; 
+    left:20px;
+    
+    
+
+}
+
+.info p {
+    font-size: 22px;
+    color: black;
+    width: 370px;
+    text-align: auto;
+    line-height: 1.0;
+    margin: 0 auto;
+    word-wrap: break-word; /* Перенос слов */
+    position: relative; 
+    left:20px;
+    
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; 
+  }
+.login-form input:focus {
+    border: 1px solid #1877f2; 
+    outline: none; 
+}
+
+
+
+.login-button {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background:#165db5;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 1px 0 0;
+    width: 100%;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+    background-color: #f0f0f0;
+}
+.signup-button {
+    margin-top: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(61, 170, 61);
+    color:white;
+    width:150px;
+    padding: 15px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align:center;
+    
+}
+  
+.signup-button:hover {
+    background-color: #37a022;
+}
+
+a {
+    text-decoration: none;
+    color: #1877f2;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.below-text{
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    width: 420px; /* Соответствует ширине формы */
+    margin-top: 10px;
+    margin-top: 25px;; /* Немного отступаем от формы */
+    position: relative; 
+    left:100px;/*сдвинул форму
+    
+}
+
+.vertcially{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+  
+}
+
