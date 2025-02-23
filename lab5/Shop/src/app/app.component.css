@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.head{
+  background-color: rgb(112,128,144);
+  color:white;
+  font-size:30px;
+  padding:2%;
+}
+
+
+
+h2{
+  color:rgb(60, 58, 152);
+  font-size: 25px;
+}
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .categories {
+    width: 20%;
+    
+  }
+  
+  .categories h2 {
+    margin-bottom: 10px;
+  }
+  
+  .categories ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .categories li {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .categories li:hover {
+    color: #007bff;
+  }
+  
+  .products {
+    width: 65%;
+  }
+  
+  .products h2 {
+    margin-bottom: 10px;
+  }
+  
+  .products app-product-list {
+    margin-top: 10px;
+  }
