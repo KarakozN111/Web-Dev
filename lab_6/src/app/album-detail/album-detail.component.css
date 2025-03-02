@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8e8ee;
+    padding: 50px;
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+}
+
+.buttons-container{
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+    padding: 10px;
+}
+.album-detail {
+    padding:65px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.save_button, .return_button {
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #b7baf09f;
+    color: rgb(17, 17, 61);
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+    padding: 10px 50px;
+    transition: background-color 0.5s ease;
+}
+
+.album-detail input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.save_button:hover, .return_button:hover {
+    background-color: #f1efef;
+}
+
+.album-detail h1 {
+    margin-bottom: 10px;
+    color: rgb(27, 6, 79);
+}
+
+.album-detail h2 {
+    margin-bottom: 40px;
+    color: #3c3da6;
+}
+
+.album-detail h3 {
+    margin: 20px 0;
+    color: white;
+    cursor: pointer;
+    font-style: italic;
+    
+}
+.album-detail a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(32, 6, 110);
+}
