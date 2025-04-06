@@ -1,0 +1,17 @@
+<div class="container" *ngIf="vacancies.length > 0">
+
+    <h3>Vacancies for the Company №{{companyId}}</h3>
+
+    <ol class="list-group">
+      <li *ngFor="let vacancy of vacancies" class="list-group-item">
+        <p><strong>Vacancy:</strong> {{ vacancy.name }}</p>
+        <p><strong>Description: </strong> {{ vacancy.description }}</p>
+        <p><strong>Salary:</strong> ${{ vacancy.salary }}</p>
+      </li>
+    </ol>
+
+</div>
+
+  <div *ngIf="vacancies.length === 0">
+    <p>No vacancies available for this company</p>
+  </div>
